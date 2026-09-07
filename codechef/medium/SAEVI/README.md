@@ -83,15 +83,25 @@ Therefore, the required sum is `0`.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T13:45:35.835Z  
+**Submitted:** 2026-09-07T13:49:44.475Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
-
+	int A[10],N,K;
+	cin>>N>>K;
+	for(int i=0;i<N;i++){
+	    cin>>A[i];
+	}
+	int S=0;
+	for(int i=0;i<N;i++){
+	    if(i%2==0 and A[i]>2*K){
+	      S+=A[i];  
+	    }
+	}
+	cout<<S;
 }
 
 ```
