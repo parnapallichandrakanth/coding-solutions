@@ -84,7 +84,7 @@ Therefore, the minimum possible difference is `11`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:17:19.254Z  
+**Submitted:** 2026-09-07T14:17:42.258Z  
 
 ```py
 # cook your dish here
