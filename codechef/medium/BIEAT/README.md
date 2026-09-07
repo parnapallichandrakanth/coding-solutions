@@ -73,7 +73,7 @@ Each number has at most $4$ significant bits, so removing $4$ least significant 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T13:58:50.420Z  
+**Submitted:** 2026-09-07T13:58:19.882Z  
 
 ```py
 N=int(input())
