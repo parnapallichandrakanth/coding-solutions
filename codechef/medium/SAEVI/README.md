@@ -83,21 +83,22 @@ Therefore, the required sum is `0`.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T13:50:15.829Z  
+**Submitted:** 2026-09-07T13:54:11.496Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	int A[10],N,K;
+	int N,K;
 	cin>>N>>K;
+	vector<int> A(N);
 	for(int i=0;i<N;i++){
 	    cin>>A[i];
 	}
-	int S=0;
+	long long S=0;
 	for(int i=0;i<N;i++){
-	    if(i%2==0 and A[i]>2*K){
+	    if(i%2==0 and A[i]>2LL * K){
 	      S+=A[i];  
 	    }
 	}
