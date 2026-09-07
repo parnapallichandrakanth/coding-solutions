@@ -73,18 +73,15 @@ Each number has at most $4$ significant bits, so removing $4$ least significant 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:02:14.094Z  
+**Submitted:** 2026-09-07T13:57:36.241Z  
 
 ```py
 N=int(input())
 A=list(map(int,input().split()))
 M=int(input())
-for i in range(len(A)):
-    A[i]=A[i]//2**M 
 for i in A:
-    print(i,end=" ")
-    
-    
+    i=i//2**M 
+print(A)
 ```
 
 ---
