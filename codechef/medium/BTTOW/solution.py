@@ -5,5 +5,7 @@ for i in range(len(A)):
         A[i]-=K 
     else:
         A[i]+=K 
-print(A)
+mn=min(A)
+mx=max(A)
+print(mx-mn)
         
