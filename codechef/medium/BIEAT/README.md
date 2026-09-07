@@ -70,20 +70,17 @@ Each number has at most $4$ significant bits, so removing $4$ least significant 
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T13:55:25.423Z  
+**Submitted:** 2026-09-07T13:57:03.417Z  
 
-```c_cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-	// your code goes here
-
-}
-
+```py
+N=int(input())
+A=list(map(int,input().split()))
+M=int(input())
+for i in A:
+    
 ```
 
 ---
