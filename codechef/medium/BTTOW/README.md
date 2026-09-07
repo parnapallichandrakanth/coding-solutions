@@ -84,7 +84,7 @@ Therefore, the minimum possible difference is `11`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:22:21.259Z  
+**Submitted:** 2026-09-07T14:23:08.255Z  
 
 ```py
 N,K=map(int,input().split())
@@ -94,7 +94,9 @@ for i in range(len(A)):
         A[i]-=K 
     else:
         A[i]+=K 
-print(A)
+mn=min(A)
+mx=max(A)
+print(mx-mn)
         
 ```
 
