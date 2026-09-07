@@ -83,7 +83,7 @@ Therefore, the required sum is `0`.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T13:54:11.496Z  
+**Submitted:** 2026-09-07T13:52:56.613Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -96,9 +96,9 @@ int main() {
 	for(int i=0;i<N;i++){
 	    cin>>A[i];
 	}
-	long long S=0;
+	int S=0;
 	for(int i=0;i<N;i++){
-	    if(i%2==0 and A[i]>2LL * K){
+	    if(i%2==0 and A[i]>2*K){
 	      S+=A[i];  
 	    }
 	}
