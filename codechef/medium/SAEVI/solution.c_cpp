@@ -2,6 +2,16 @@
 using namespace std;
 
 int main() {
-	// your code goes here
-
+	int A[10],N,K;
+	cin>>N>>K;
+	for(int i=0;i<N;i++){
+	    cin>>A[i];
+	}
+	int S=0;
+	for(int i=0;i<N;i++){
+	    if(i%2==0 and A[i]>2*K){
+	      S+=A[i];  
+	    }
+	}
+	cout<<S;
 }
