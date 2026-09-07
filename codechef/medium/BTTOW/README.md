@@ -84,11 +84,20 @@ Therefore, the minimum possible difference is `11`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:18:09.255Z  
+**Submitted:** 2026-09-07T14:22:42.690Z  
 
 ```py
-# cook your dish here
-
+N,K=map(int,input().split())
+A=list(map(int,input().split()))
+for i in range(len(A)):
+    if A[i]-K>0:
+        A[i]-=K 
+    else:
+        A[i]+=K 
+mn=min(A)
+mx=max(A)
+print(mx-mn)
+        
 ```
 
 ---
