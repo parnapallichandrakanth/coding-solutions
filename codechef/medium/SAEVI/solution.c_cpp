@@ -8,9 +8,9 @@ int main() {
 	for(int i=0;i<N;i++){
 	    cin>>A[i];
 	}
-	int S=0;
+	long long S=0;
 	for(int i=0;i<N;i++){
-	    if(i%2==0 and A[i]>2*K){
+	    if(i%2==0 and A[i]>2LL * K){
 	      S+=A[i];  
 	    }
 	}
