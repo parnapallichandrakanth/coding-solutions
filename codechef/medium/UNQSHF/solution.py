@@ -3,8 +3,8 @@ for _ in range(t):
     n=int(input())
     A=input()
     B=input()
-    freq_A={}
-    freq_B={}
+    freq_A={'a':0}
+    freq_B={'b':0}
     for i in A:
         freq_A[i]=freq_A.get(i,0)+1
     for i in B:
