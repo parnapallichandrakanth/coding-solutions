@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:10:46.191Z  
+**Submitted:** 2026-09-09T15:16:31.185Z  
 
 ```py
 t=int(input())
@@ -85,10 +85,10 @@ for _ in range(t):
     freq_A={}
     freq_B={}
     for i in A:
-        freq_A[i]+=freq_A.get(i,0)+1
+        freq_A[i]=freq_A.get(i,0)+1
     for i in B:
-        freq_B[i]+=freq_B.get(i,0)+1
-    if freq_A[a]==freq_B[b] and freq_A[b]==freq[a]:
+        freq_B[i]=freq_B.get(i,0)+1
+    if freq_A['a']==freq_B['b']:
         print("YES")
     else:
         print("NO")
