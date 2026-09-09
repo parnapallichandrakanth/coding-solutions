@@ -9,7 +9,7 @@ for _ in range(t):
         freq_A[i]=freq_A.get(i,0)+1
     for i in B:
         freq_B[i]=freq_B.get(i,0)+1
-    if freq_A['a']==freq_B['b']:
+    if freq_A['a']==freq_B['b'] and freq_B['a']==freq_A['b']:
         print("YES")
     else:
         print("NO")
