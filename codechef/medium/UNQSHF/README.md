@@ -74,11 +74,25 @@ So, no solution exists.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:57:00.272Z  
+**Submitted:** 2026-09-09T15:10:46.191Z  
 
 ```py
-# cook your dish here
-
+t=int(input())
+for _ in range(t):
+    n=int(input())
+    A=input()
+    B=input()
+    freq_A={}
+    freq_B={}
+    for i in A:
+        freq_A[i]+=freq_A.get(i,0)+1
+    for i in B:
+        freq_B[i]+=freq_B.get(i,0)+1
+    if freq_A[a]==freq_B[b] and freq_A[b]==freq[a]:
+        print("YES")
+    else:
+        print("NO")
+        
 ```
 
 ---
