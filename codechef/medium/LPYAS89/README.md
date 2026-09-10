@@ -4,52 +4,22 @@
 
 ## Problem
 
-Identify and correct the logic to check if a number is even. Program should print `true` if number is even, else `false`.
+Rectify the errors to make the program compile successfully
 
-### Input Format
-- An integer N
-### Output Format
-- true if N is even, else false.
-### Sample 1:
-Input
-Output
+### Expected output
 
-```
-5
-```
-
-```
-false
-```
-
-### Sample 2:
-Input
-Output
-
-```
-4
-```
-
-```
-true
-```
+$12$
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T09:07:20.915Z  
+**Submitted:** 2026-09-10T09:07:48.109Z  
 
 ```py
-# Debug and fix the code
-n = int(input())
-
-if n % 2 == 0:
-    print("true")
-else:
-    print("false")
-
+a=4+8
+print(a)
 ```
 
 ---
