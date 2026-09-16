@@ -55,11 +55,11 @@ Yes
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T15:51:11.746Z  
+**Submitted:** 2026-09-16T15:51:36.660Z  
 
 ```py
 t=int(input())
-for _ in range(k):
+for _ in range(t):
     n,k=map(int,input().split())
     if n-k==1:
         print("No")
