@@ -2,19 +2,18 @@ t=int(input())
 for _ in range(t):
     n,k=map(int,input().split())
     cnt=0
-    i=0
-    j=2
-    if n<k:
-        print(n)
-    else:
-        while i<n:
-            if i==k:
-                cnt+=1
-                k=k*j 
-                j+=1
-            i+=1
+    j=0
+    lst=[]
+    while n>=j*k:
+        lst.append(j*k)
+        j+=1
+        
+    for i in range(1,n+1):
+        if i in lst:
             cnt+=1
-        print(cnt+1)
+        cnt+=1
+    print(cnt)
+        
             
             
             
