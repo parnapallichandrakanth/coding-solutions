@@ -77,7 +77,7 @@ Thus, it's impossible to make the array  *good*  after a single deletion.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:22:37.218Z  
+**Submitted:** 2026-09-23T15:20:58.217Z  
 
 ```py
 t=int(input())
@@ -86,12 +86,7 @@ for _ in range(t):
     arr=list(map(int,input().split()))
     s=sum(arr)
     m=min(arr)
-    if s>=0:
-        print("Yes")
-    elif s-m>=0:
-        print("Yes")
-    else:
-        print("No")
+    
 ```
 
 ---
