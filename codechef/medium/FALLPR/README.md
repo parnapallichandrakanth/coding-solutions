@@ -77,11 +77,19 @@ Thus, it's impossible to make the array  *good*  after a single deletion.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:18:20.217Z  
+**Submitted:** 2026-09-23T15:24:35.218Z  
 
 ```py
-# cook your dish here
-
+t=int(input())
+for _ in range(t):
+    l=int(input())
+    arr=list(map(int,input().split()))
+    s=sum(arr)
+    m=min(arr)
+    if s-m>=0:
+        print("Yes")
+    else:
+        print("No")
 ```
 
 ---
