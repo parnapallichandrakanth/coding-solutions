@@ -77,7 +77,7 @@ Thus, it's impossible to make the array  *good*  after a single deletion.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:24:35.218Z  
+**Submitted:** 2026-09-23T15:23:47.219Z  
 
 ```py
 t=int(input())
