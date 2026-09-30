@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:20:56.941Z  
+**Submitted:** 2026-09-30T15:22:24.940Z  
 
 ```py
 t=int(input())
@@ -66,6 +66,7 @@ for _ in range(t):
     ans=[]
     j=K
     for i in range(1,N+1):
+        print(j)
         if j==0:
             break
         j-=1
