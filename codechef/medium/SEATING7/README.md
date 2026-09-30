@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:18:30.940Z  
+**Submitted:** 2026-09-30T15:25:44.170Z  
 
 ```py
 t=int(input())
@@ -64,9 +64,13 @@ for _ in range(t):
     N,M,K=map(int,input().split())
     A=list(map(int,input().split()))
     ans=[]
+    j=0
     for i in range(1,N+1):
+        if j==K:
+            break
         if i not in A:
             print(i,end=" ")
+            j+=1
     print()
         
 ```
