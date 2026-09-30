@@ -57,7 +57,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:52:03.600Z  
+**Submitted:** 2026-09-30T14:50:48.603Z  
 
 ```py
 b,h,c=map(int,input().split())
