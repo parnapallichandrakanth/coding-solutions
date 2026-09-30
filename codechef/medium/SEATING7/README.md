@@ -56,11 +56,18 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:12:25.928Z  
+**Submitted:** 2026-09-30T15:18:01.942Z  
 
 ```py
-# cook your dish here
-
+t=int(input())
+for _ in range(t):
+    N,M,K=map(int,input().split())
+    A=list(map(int,input().split()))
+    ans=[]
+    for i in range(1,N+1):
+        if i not in A:
+            print(i,end=" ")
+        
 ```
 
 ---
