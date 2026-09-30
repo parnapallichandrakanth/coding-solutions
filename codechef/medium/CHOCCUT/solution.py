@@ -1,7 +1,6 @@
 t=int(input())
-N,M=map(int,input().split())
 for _ in range(t):
-    print(N,M)
+    N,M=map(int,input().split())
     if N%2==0 or M%2==0:
         print("Yes")
     else:
