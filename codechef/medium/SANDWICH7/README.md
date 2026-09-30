@@ -57,11 +57,11 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:49:02.612Z  
+**Submitted:** 2026-09-30T14:50:09.599Z  
 
 ```py
-# cook your dish here
-
+b,h,c=map(int,input().split())
+print(b//2)
 ```
 
 ---
