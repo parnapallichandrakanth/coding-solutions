@@ -5,6 +5,7 @@ for _ in range(t):
     ans=[]
     j=K
     for i in range(1,N+1):
+        print(j)
         if j==0:
             break
         j-=1
