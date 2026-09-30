@@ -57,11 +57,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:50:48.603Z  
+**Submitted:** 2026-09-30T14:53:22.572Z  
 
 ```py
 b,h,c=map(int,input().split())
-print(b//2)
+if b//2<=(h+c):
+    print(b//2)
+else:
+    print(h+c)
 ```
 
 ---
