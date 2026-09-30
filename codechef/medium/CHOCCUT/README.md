@@ -54,12 +54,13 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:08:24.499Z  
+**Submitted:** 2026-09-30T15:09:25.499Z  
 
 ```py
 t=int(input())
 N,M=map(int,input().split())
 for _ in range(t):
+    print(N,M)
     if N%2==0 or M%2==0:
         print("Yes")
     else:
